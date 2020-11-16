@@ -1,0 +1,30 @@
+@media (min-width: 1024px) {
+  .hidden-lg {
+    display: none;
+  }
+  .visible-lg {
+    display: block;
+  }
+  .flex-lg {
+    display: flex;
+  }
+  .header__search {
+    width: 272px;
+  }
+  .header__search:focus,
+  .header__search:focus-within {
+    width: 300px;
+  }
+  .pl-lg-2 {
+    padding-left: 8px;
+  }
+  .pr-lg-2 {
+    padding-right: 8px;
+  }
+  .pl-lg-3 {
+    padding-left: 16px;
+  }
+  .pr-lg-3 {
+    padding-right: 16px;
+  }
+}
